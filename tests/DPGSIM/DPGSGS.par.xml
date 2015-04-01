@@ -1,0 +1,43 @@
+<parameters>  <algorithm name="lpm_ufrgs_dpgsim" /> 
+  <enableCustomizeIRF  value="1"  /> 
+  <executeCrossValidation  value="0"  /> 
+  <Kriging_Type  value="Simple Kriging (SK)"  /> 
+  <nIRFX  value="4" /> 
+  <nIRFY  value="4" /> 
+  <nIRFZ  value="1" /> 
+  <nRevisitations  value="1" /> 
+  <Nb_Realizations  value="20" /> 
+  <nThreads  value="4" /> 
+  <Seed  value="14071789" /> 
+  <Grid_Name value="grid" region=""  /> 
+  <Property_Name  value="4T_4-4-1" /> 
+  <nb_parallel_real  value="1" /> 
+  <Assign_Hard_Data  value="0"  /> 
+  <Hard_Data  grid="walker_lake"   property="V_nscore"   region=""  /> 
+  <Max_Conditioning_Data  value="12" /> 
+  <Max_Conditioning_Simul_Data  value="12" /> 
+  <Search_Ellipsoid  value="70 40 1
+0 0 0" />
+  <AdvancedSearch  use_advanced_search="1"
+ use_selected_region ="0"
+ use_octant_search ="1"><OctantParameters  min_per_octant ="1"  
+  max_per_octant ="6"
+  min_octant ="1" />
+</AdvancedSearch>
+  <Use_Target_Histogram  value="0"  /> 
+  <covariance_input  structures_count="3" >
+  <Structure_1 type="Covariance">  <Two_point_model  contribution="0.2"  type="Nugget Covariance"   >
+  </Two_point_model>
+  </Structure_1>
+  <Structure_2 type="Covariance">  <Two_point_model  contribution="0.4"  type="Spherical Covariance"   >
+    <ranges range1="70"  range2="40"  range3="0"   />
+    <angles azimuth="0"  dip="0"  rake="0"   />
+  </Two_point_model>
+  </Structure_2>
+  <Structure_3 type="Covariance">  <Two_point_model  contribution="0.4"  type="Spherical Covariance"   >
+    <ranges range1="40"  range2="20"  range3="0"   />
+    <angles azimuth="0"  dip="0"  rake="0"   />
+  </Two_point_model>
+  </Structure_3>
+</covariance_input>
+</parameters> 

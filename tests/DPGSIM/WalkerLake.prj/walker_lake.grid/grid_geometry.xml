@@ -1,0 +1,13 @@
+<!DOCTYPE gridGeometry>
+<Grid name="walker_lake" type="Point_set">
+ <Geometry size="470"/>
+ <Properties>
+  <GsTLGridProperty name="ID" type="Continuous" filepath="properties/property__ID.sgems"/>
+  <GsTLGridProperty name="T" type="Continuous" filepath="properties/property__T.sgems"/>
+  <GsTLGridProperty name="U" type="Continuous" filepath="properties/property__U.sgems"/>
+  <GsTLGridProperty name="V" type="Continuous" filepath="properties/property__V.sgems"/>
+  <GsTLGridProperty name="V_nscore" type="Continuous" filepath="properties/property__V_nscore.sgems" parameters="&lt;parameters>&lt;algorithm name=&quot;trans&quot;/>&lt;ref_type_target value=&quot;Gaussian&quot;/>&lt;G_mean_target value=&quot;0&quot;/>&lt;G_variance_target value=&quot;1&quot;/>&lt;nonParamCdf_target ref_on_file=&quot;0&quot; ref_on_grid=&quot;1&quot; distribution=&quot;&quot; region=&quot;&quot; grid=&quot;&quot; property=&quot;&quot; ref_in_distribution=&quot;0&quot; filename=&quot;&quot; break_ties=&quot;0&quot;>&lt;LTI_type extreme=&quot;0&quot; function=&quot;Power&quot; omega=&quot;3&quot;/>&lt;UTI_type extreme=&quot;0&quot; function=&quot;Power&quot; omega=&quot;0.333&quot;/>&lt;/nonParamCdf_target>&lt;LN_mean_target value=&quot;1&quot;/>&lt;LN_variance_target value=&quot;1&quot;/>&lt;Unif_min_target value=&quot;0&quot;/>&lt;Unif_max_target value=&quot;1&quot;/>&lt;ref_type_source value=&quot;Non Parametric&quot;/>&lt;nonParamCdf_source ref_on_file=&quot;0&quot; ref_on_grid=&quot;1&quot; distribution=&quot;&quot; region=&quot;&quot; grid=&quot;grid&quot; property=&quot;V_NN&quot; ref_in_distribution=&quot;0&quot; filename=&quot;&quot; break_ties=&quot;1&quot;>&lt;LTI_type extreme=&quot;0&quot; function=&quot;Power&quot; omega=&quot;3&quot;/>&lt;UTI_type extreme=&quot;1528.1&quot; function=&quot;Power&quot; omega=&quot;0.333&quot;/>&lt;/nonParamCdf_source>&lt;G_mean_source value=&quot;0&quot;/>&lt;G_variance_source value=&quot;1&quot;/>&lt;LN_mean_source value=&quot;1&quot;/>&lt;LN_variance_source value=&quot;1&quot;/>&lt;Unif_min_source value=&quot;0&quot;/>&lt;Unif_max_source value=&quot;1&quot;/>&lt;grid region=&quot;&quot; value=&quot;walker_lake&quot;/>&lt;props count=&quot;1&quot; value=&quot;V&quot;/>&lt;out_suffix value=&quot;_nscore&quot;/>&lt;is_cond value=&quot;0&quot;/>&lt;/parameters>"/>
+ </Properties>
+ <Regions/>
+ <PropertyGroups/>
+</Grid>
